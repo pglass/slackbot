@@ -1,0 +1,5 @@
+*.pyc
+*.pyo
+*.conf
+*.log
+.venv
