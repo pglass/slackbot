@@ -1,1 +1,1 @@
-web: python heroku_start.py
+bot: python heroku_start.py
