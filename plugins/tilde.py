@@ -10,7 +10,8 @@ class TildePlugin(Plugin):
         return text.startswith('tilde') or text.startswith('@tilde')
 
     def _strip_prefix(self, text):
-        return text.split('tilde')[1]
+        result = text.split('tilde')[1]
+        return result.strip()
 
     def process_message(self, data):
         print(data)
